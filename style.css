@@ -1,0 +1,148 @@
+
+
+
+body {
+    background: #FFEBD7;
+    font-family: 'Cormorant', serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.knopki{
+    display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    width: 539px;
+    margin-top: 40px;
+    margin-left: 123px;
+    
+
+  }
+
+ .head {
+    display: grid;
+    grid-template-columns: 905px 535px;
+    grid-template-areas: "agness image"
+                          "info image"
+                          "more image"   ;
+ } 
+
+ .agness {
+    display:block;
+    font-family: 'Cormorant', serif;
+    font-size: 180px;
+    font-weight: 300;
+    font-style: normal;
+    grid-area: agness;
+    padding-left:123px;
+    padding-top: 185px;
+    padding-bottom: 0px;
+    margin: 0px;
+    line-height: 0;
+ }
+
+ .info {
+    grid-area: info;
+    font-family: 'Cormorant', serif;
+    display:block;
+    font-size: 48px;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 5px;
+    margin: 0;
+    margin-left: 168px;
+    
+   
+ }
+
+ .more {
+
+    margin-left: 269px;
+    margin-top: 70px;
+    background-color: #F5999A;
+    grid-area: more;
+    width:361px;
+    padding: 21px, 30px, 21px, 30px;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Cormorant', serif;
+    display:block;
+    font-size: 36px;
+    font-weight: 500;
+    width: 361px;
+    height: 97px;
+    color: #FFFFFF;
+    justify-content: center;
+ }
+
+ .image {
+    width:460px;
+    grid-area: image;
+    justify-content: flex-start;
+    margin-right: 91px;
+ }
+
+ .sec-2 {
+   display: grid;
+   grid-template-columns: 655px 785px;
+   grid-template-areas: " image-2 about"
+                         "image-2 txt-1"
+                         "image-2 txt-1"   ;
+ }
+
+ .about {
+   margin-top: 150px;
+   margin-left: 200px;
+   grid-area: about;
+   line-height: 0;
+   margin-bottom: 0;
+ }
+
+ .txt-1 {
+   display:block;
+   grid-area: txt-1;
+   margin-top: 0px;
+   margin-right: 40px;
+ }
+
+ .image-2 {
+   grid-area: image-2;
+   width: 450px;
+height: 601px;
+left: 67px;
+margin-top: 121px;
+ }
+
+ h2 {
+   font-family: 'Cormorant';
+font-style: normal;
+font-weight: 300;
+font-size: 72px;
+line-height: 87px;
+color: #161616;
+ }
+
+ .txt {
+   display:block;
+   font-family: 'Cormorant';
+font-style:normal ;
+font-weight: 500;
+font-size: 25px;
+color: #000000;
+line-height: 23px;
+margin-top:0px;
+margin-right: 40px;
+
+ }
+
+ arcitle {
+   margin: 0;
+ }
